@@ -1,12 +1,12 @@
-# API 密钥——绝不上传
+# 环境变量文件不上传
 .env
 
-# Python 运行产物
+# Python 缓存
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# 系统文件
-.DS_Store
-
-# demo_project 练习时可能生成的临时文件
-demo_project/data/notes_export.md
+# IDE
+.vscode/
+.idea/
